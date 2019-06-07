@@ -8,7 +8,7 @@ from sklearn.cluster import DBSCAN
 
 
 def loadData():
-    dataPath = 'E:\workplace\BigData\Data\Exp06\circle.txt'
+    dataPath = 'E:\workSpace\BigData_Learning\Data\Exp06\circle.txt'
     dataFile = open(dataPath, 'r')
 
     X = []

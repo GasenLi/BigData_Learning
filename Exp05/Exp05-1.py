@@ -42,7 +42,7 @@ def process_data(filename):
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 if __name__ == "__main__":
-    x,y = process_data('E:\workplace\BigData\Data\Exp05\\raw_data.txt')
+    x,y = process_data('E:\workSpace\BigData_Learning\Data\Exp05\\raw_data.txt')
     cls = DecisionTreeClassifier()
     cls.fit(x,y)
 
